@@ -1,0 +1,25 @@
+Jobid: 10113870
+qsub -I -A ALCFAITP -n 1 -t 60 -q single-gpu
+Wed Nov 09 21:46:40 2022 +0000 (UTC) submitted with cwd set to: /lus/swift/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci
+jobid 10113870 submitted from terminal /dev/pts/54
+Wed Nov 09 21:47:03 2022 +0000 (UTC) 
+Wed Nov 09 21:47:03 2022 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu06-gpu6' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10113870' '--jobid' '10113870' '--cwd' '/lus/swift/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci' '--env' 'COBALT_JOBID=10113870' '/bin/sleep' '3600'
+Wed Nov 09 21:47:03 2022 +0000 (UTC) 
+Wed Nov 09 21:47:03 2022 +0000 (UTC) Environment:
+Wed Nov 09 21:47:03 2022 +0000 (UTC) SHELL=/bin/bash
+Wed Nov 09 21:47:03 2022 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpdcpeI3
+Wed Nov 09 21:47:03 2022 +0000 (UTC) COBALT_PARTNAME=thetagpu06-gpu6
+Wed Nov 09 21:47:03 2022 +0000 (UTC) COBALT_JOBID=10113870
+Wed Nov 09 21:47:03 2022 +0000 (UTC) COBALT_STARTTIME=1668030406
+Wed Nov 09 21:47:03 2022 +0000 (UTC) LOGNAME=suyueyuan
+Wed Nov 09 21:47:03 2022 +0000 (UTC) USER=suyueyuan
+Wed Nov 09 21:47:03 2022 +0000 (UTC) COBALT_ENDTIME=1668034006
+Wed Nov 09 21:47:03 2022 +0000 (UTC) COBALT_PARTSIZE=1
+Wed Nov 09 21:47:03 2022 +0000 (UTC) HOME=/home/suyueyuan
+Wed Nov 09 21:47:03 2022 +0000 (UTC) COBALT_JOBSIZE=1
+Wed Nov 09 21:47:03 2022 +0000 (UTC) 
+Wed Nov 09 21:47:03 2022 +0000 (UTC) Info: stdin received from /dev/null
+Wed Nov 09 21:47:03 2022 +0000 (UTC) Info: stdout sent to /lus/swift/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/10113870.output
+Wed Nov 09 21:47:03 2022 +0000 (UTC) Info: stderr sent to /lus/swift/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/10113870.error
+Wed Nov 09 21:47:03 2022 +0000 (UTC) 
+Wed Nov 09 22:47:05 2022 +0000 (UTC) Info: maximum execution time exceeded; initiating job termination

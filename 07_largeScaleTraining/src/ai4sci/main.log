@@ -1,0 +1,69 @@
+Job ID: 
+Job started at: 2022-11-10-152818
+DIR:/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  Job started at: 2022-11-10-152818 on thetagpu06           ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+The following have been reloaded with a version change:
+  1) openmpi/openmpi-4.0.5 => openmpi/openmpi-4.1.4_ucx-1.12.1_gcc-9.4.0
+
+Found venv at: /home/suyueyuan/ai-science-training-series/07_largeScaleTraining/venv/, using that
+./main.sh: line 134: /home/suyueyuan/ai-science-training-series/07_largeScaleTraining/venvs/thetaGPU/2022-07-01/bin/activate: No such file or directory
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pip in /home/suyueyuan/.local/conda/2022-07-01/lib/python3.8/site-packages (22.3.1)
+Defaulting to user installation because normal site-packages is not writeable
+Obtaining file:///home/suyueyuan/ai-science-training-series/07_largeScaleTraining
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: ai4sci
+  Building editable for ai4sci (pyproject.toml): started
+  Building editable for ai4sci (pyproject.toml): finished with status 'done'
+  Created wheel for ai4sci: filename=ai4sci-0.0.0-0.editable-py3-none-any.whl size=1169 sha256=dae6474721f3614c35a80f7c6087217a22337a0bd35457f848a0a7fe9580daef
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ywad7gkl/wheels/bf/b8/d6/3e91641ca82a083b447edeebb7519919b7bb0959779af6a9ec
+Successfully built ai4sci
+Installing collected packages: ai4sci
+  Attempting uninstall: ai4sci
+    Found existing installation: ai4sci 0.0.0
+    Uninstalling ai4sci-0.0.0:
+      Successfully uninstalled ai4sci-0.0.0
+Successfully installed ai4sci-0.0.0
+WIDTH: 
+DIR=/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci
+MAIN=/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py
+PARENT=/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src
+ROOT=/home/suyueyuan/ai-science-training-series/07_largeScaleTraining
+LOGDIR=/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs
+LOGFILE=/home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs/2022-11-10-152818-thetagpu06_ngpu1_ncpu8.log
+IBV_FORK_SAFE=
+────────────────────────────────────────────────────────────────────────────────┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  STARTING A NEW RUN ON 1 GPUs 8  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+────────────────────────────────────────────────────────────────────────────────┃  - DATE: 2022-11-10-152818
+┃  - NCPUS: 8
+┃  - NRANKS: 1
+┃  - NGPUS PER RANK: 1
+┃  - NGPUS TOTAL: 1
+┃  - MAIN: /home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py
+┃  - Writing logs to /home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs/2022-11-10-152818-thetagpu06_ngpu1_ncpu8.log
+┃  - python3: /lus/theta-fs0/software/thetagpu/conda/2022-07-01/mconda3/bin/python3
+┃  - mpirun: /lus/theta-fs0/software/thetagpu/openmpi/openmpi-4.1.4_ucx-1.12.1_gcc-9.4.0/bin/mpirun
+┃  - ai4sci: /home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/__init__.py
+┃  - exec: /lus/theta-fs0/software/thetagpu/openmpi/openmpi-4.1.4_ucx-1.12.1_gcc-9.4.0/bin/mpirun --verbose     -n 1     --hostfile /var/tmp/cobalt.10114099     -npernode 1     -x PYTHONUSERBASE     -x PYTHONSTARTUP     -x http_proxy     -x https_proxy     -x PATH     -x LD_LIBRARY_PATH /lus/theta-fs0/software/thetagpu/conda/2022-07-01/mconda3/bin/python3 /home/suyueyuan/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py 
+────────────────────────────────────────────────────────────────────────────────
+
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+orterun noticed that process rank 0 with PID 0 on node thetagpu06 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
