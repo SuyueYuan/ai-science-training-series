@@ -21,13 +21,24 @@ AI-Driven Science on Supercomputers @ ALCF 2022
  
  Submit a paragraph about: 
  
-- How could you use AI for a problem that interests you? 
-- What is the task? 
-- What kind of data would you use? 
-- What kind of method or model might be appropriate? 
-- What kind of metric would you use to measure success? 
+- How could you use AI for a problem that interests you?
+- My current research focuses on molecular dynamics simulations. AI provides great tools to speed up the calculation time for various simulations. Meanwhile, it inspires new ways to analyze the raw data, extracting more information than standing with physical interpretation alone.
+ 
+- What is the task?
+- A task we have been working on is to investigate mechanical properties, failure mechanisms, and scaling laws of bicontinuous nanoporous metallic glasses with AI.
+ 
+- What kind of data would you use?
+- Data generated with large-scale molecular dynamics simulations.
+ 
+- What kind of method or model might be appropriate?
+- We considered genetic programming algorithms as our main tools.
+ 
+- What kind of metric would you use to measure success?
+- We fitted the model and compare the predicted results with simulated results, evaluating them with R2 scores.
+
 
 Feel free to consult the Internet for ideas.
+
 
 This paragraph can be placed in a README in git and you can submit the link. 
 
